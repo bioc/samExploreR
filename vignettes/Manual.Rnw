@@ -6,7 +6,6 @@
 \documentclass[11pt]{article}
 \usepackage[dvips]{graphicx}
 \usepackage{makeidx}  % allows for indexgeneration
-\usepackage{Sweave}
 \usepackage{psfrag}
 <<style-Sweave, eval=TRUE, echo=FALSE, results=tex>>=
 BiocStyle::latex()
