@@ -56,8 +56,9 @@ If you use the samExploreR package, please cite \cite{alexey} and \cite{liao2013
 SamExploreR depends on some R package available in Bioconductor that need to be installed before you can use the package. The symbol '>' indicates the R prompt. 
 
 <<install-library, eval=FALSE>>=
-source("https://bioconductor.org/biocLite.R")
-biocLite("samExploreR")
+if (!requireNamespace("BiocManager", quietly=TRUE))
+    install.packages("BiocManager")
+BiocManager::install("samExploreR")
 @
 Installation command: call the following command from an R prompt.
 
@@ -69,7 +70,7 @@ If a user wants to make changes to the package and rebuild it again, then the fo
 
 
 <<install-library, eval=FALSE>>=
- biocLite(c("BiocCheck", "BiocGenerics", "RUnit"))
+ BiocManager::install(c("BiocCheck", "BiocGenerics", "RUnit"))
 @
 
 
