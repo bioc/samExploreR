@@ -3,7 +3,7 @@ Type: Package
 Title: samExploreR package: high-performance read summarisation to
         count vectors with avaliability of sequencing depth reduction
         simulation
-Version: 1.7.0
+Version: 1.7.1
 Depends: ggplot2,Rsubread,RNAseqData.HNRNPC.bam.chr14,edgeR,R (>=
         3.4.0)
 Author: Alexey Stupnikov, Shailesh Tripathi and Frank Emmert-Streib
@@ -19,7 +19,7 @@ Imports: grDevices, stats, graphics
 License: GPL-3
 LazyLoad: yes
 Suggests: BiocStyle,RUnit,BiocGenerics,Matrix
-biocViews: Sequencing, SequenceMatching, RNASeq, ChIPSeq, DNASeq,
+biocViews: ImmunoOncology, Sequencing, SequenceMatching, RNASeq, ChIPSeq, DNASeq,
         WholeGenome, GeneTarget, Alignment, GeneExpression,
         GeneticVariability, GeneRegulation, Preprocessing,
         GenomeAnnotation, Software
